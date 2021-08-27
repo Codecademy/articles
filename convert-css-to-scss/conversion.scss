@@ -1,0 +1,67 @@
+
+//variables 
+$black: #000000;
+$font-type: Helvetica, sans-serif;
+
+body {
+    color: $black;
+    font: 100% $font-type;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+//nesting
+nav {
+    ul {
+	   margin: 2;
+	   padding: 2;
+	   list-style: none;
+      }
+    li {
+	   display: inline-block;
+      }
+     
+    a {
+	  display: block;
+	  padding: 12px 24px;
+	  text-decoration: none;
+      }
+}
+
+//mix-ins
+@mixin highlight-text{
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.highlight {
+    @include highlight-text;
+    background: yellow;
+}
+
+//extend
+.button-basic  {
+    border: none;
+    padding: 25px 35px;
+    text-align: center;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.button-back {
+     @extend button-basic;
+     color: white;
+     background: blue;
+}
+
+.button-next {
+     @extend button-basic;
+     color: red;
+     background: green;
+}
+
+//operators
+.container {
+    width: 520px / 800px * 100%;
+}
