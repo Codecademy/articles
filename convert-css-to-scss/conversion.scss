@@ -12,19 +12,19 @@ body {
 // Nesting
 nav {
     ul {
-	   margin: 2;
-	   padding: 2;
-	   list-style: none;
+        margin: 2;
+        padding: 2;
+        list-style: none;
       }
     li {
-	   display: inline-block;
+        display: inline-block;
       }
      
     a {
-	  display: block;
-	  padding: 12px 24px;
-	  text-decoration: none;
-      }
+        display: block;
+        padding: 12px 24px;
+        text-decoration: none;
+    }
 }
 
 // Mix-ins
