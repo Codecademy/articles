@@ -28,7 +28,7 @@ nav {
 }
 
 // Mix-ins
-@mixin highlight-text{
+@mixin highlight-text {
     color: blue;
     font-size: 50px;
     font-weight: bold;
@@ -40,7 +40,7 @@ nav {
 }
 
 // Extend
-.button-basic  {
+.button-basic {
     border: none;
     padding: 25px 35px;
     text-align: center;
