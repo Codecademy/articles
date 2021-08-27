@@ -1,5 +1,4 @@
-
-//variables 
+// Variables 
 $black: #000000;
 $font-type: Helvetica, sans-serif;
 
@@ -10,7 +9,7 @@ body {
     font-weight: lighter;
 }
 
-//nesting
+// Nesting
 nav {
     ul {
 	   margin: 2;
@@ -28,7 +27,7 @@ nav {
       }
 }
 
-//mix-ins
+// Mix-ins
 @mixin highlight-text{
     color: blue;
     font-size: 50px;
@@ -40,7 +39,7 @@ nav {
     background: yellow;
 }
 
-//extend
+// Extend
 .button-basic  {
     border: none;
     padding: 25px 35px;
@@ -61,7 +60,7 @@ nav {
      background: green;
 }
 
-//operators
+// Operators
 .container {
     width: 520px / 800px * 100%;
 }
