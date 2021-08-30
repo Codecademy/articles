@@ -6,6 +6,8 @@ struct ContentView: View {
   var body: some View {
     VStack {
       Text("Roll Me!")
+        .font(.largeTitle)
+        .bold()
 
       Image("dice\(randomNum)")
         .overlay(RoundedRectangle(cornerRadius: 5.0).stroke(lineWidth: 1.0))
