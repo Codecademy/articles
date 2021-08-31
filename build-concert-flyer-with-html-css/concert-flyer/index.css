@@ -1,0 +1,77 @@
+html, body {
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+#outer-flyer-wrapper {
+  background-color: #f5da7c;
+  margin: 10px auto 10px auto;
+  max-width: 35%;
+  min-height: 100%;
+  padding: 10px;
+}
+
+#inner-flyer-wrapper {
+  background-color: #ffffff;
+  display: grid; 
+  grid-gap: 1em;
+  grid-template-areas: 'header header'
+                       'priceDate bandLineup'
+                       'footer footer';
+}
+
+#flyer-header {
+  grid-area: header;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#hero-image {
+  width: 100%;
+  margin: auto;
+}
+
+#concert-header {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+#band-lineup-section {
+  background-color: #7700d7;
+  color: #ffffff;
+  grid-area: bandLineup;
+  margin-right: 0.5em;
+  display: flex;
+}
+
+#lineup-table {
+  margin: auto;
+}
+
+#main-band-header, #featured-bands-header {
+  margin: 0
+}
+
+#price-and-date-section {
+  background-color: #f7f8c9;
+  grid-area: priceDate;
+  margin-left: 0.5em;
+}
+
+#sponsor-footer {
+  background-color: #ec586b;
+  color: #ffffff;
+  font-size: 1.5em;
+  grid-area: footer;
+  height: 100px;
+}
