@@ -5,10 +5,8 @@
 # create a new package
 yarn init
 
-
 # install a specific dependency
 yarn add <package-name>
-
 
 # install all package dependencies
 yarn install

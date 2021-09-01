@@ -5,10 +5,8 @@
 # create a new package
 npm init
 
-
 # install a specific dependency
 npm install <package-name>
-
 
 # install all package dependencies
 npm install
