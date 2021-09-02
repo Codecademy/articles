@@ -1,1 +1,0 @@
-# Notes on pros and cons of npm 
