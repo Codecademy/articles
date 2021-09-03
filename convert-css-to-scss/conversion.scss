@@ -64,3 +64,25 @@ nav {
 .container {
     width: 520px / 800px * 100%;
 }
+
+//functions
+@function mult($numbers...){
+    $mult: 1;
+    @each $num in $numbers {
+        $mult: $mult * $num;
+    }
+    @return $mult;
+}
+
+.increase {
+    size: mult(2px, 4px, 5px, 8px);
+}
+
+//power function
+@function exponent($base, $exp){
+    $answer: 1;
+    @for $_ from 1 through $exp {
+        $answer: $answer * $base;
+    }
+    @return $answer;
+}
