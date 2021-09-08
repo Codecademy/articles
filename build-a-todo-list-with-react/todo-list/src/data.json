@@ -1,0 +1,13 @@
+[{
+   "id": 1,
+   "todo": "Cook Breakfast - Banana Pancakes",
+   "done": false
+ }, {
+   "id": 2,
+   "todo": "Feed Cat",
+   "done": false
+ }, {
+   "id": 3,
+   "todo": "Complete Codecademy React Course",
+   "done": false
+}]

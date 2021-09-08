@@ -1,0 +1,58 @@
+* {
+  background: #10162F;
+  line-height: 22px;
+  color: #F5FCFF;
+  font-family: 'Lucida Grande';
+  font-size: 14px;
+} 
+
+.App {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  margin: 0 0 0 3px;
+  padding: 3px 10px;
+  line-height: 24px;
+  vertical-align: bottom;
+  background-color: #10162F;
+  border: 2px solid #F5FCFF;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3388FF;
+}
+
+form {
+  padding: 20px;
+}
+
+input {
+  padding: 5px 3px 5px 3px;
+  border-radius: 2px;
+  border: 1px solid #F5FCFF;
+  color: #F5FCFF;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 700;
+ }
+
+.done {
+  text-decoration: line-through;
+}
+
+.todo-item {
+  padding: 10px;
+  border-top: solid 1px #F5FCFF;
+  min-height: 30px;
+  line-height: 30px;
+  text-align: end;
+}
