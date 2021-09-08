@@ -7,14 +7,14 @@ df2 = pd.DataFrame({'key': ['C', 'D', 'E', 'F'],
                 	'value': [9, 8, 7, 6]})
 
 # The "suffixes" parameter is a tuple that specifies how to distinguish 
-# columns that have the same name in both dataframes.
+# columns that have the same name in both DataFrames.
 # The default value is ('_x','_y').
 
 df3 = pd.merge(df1,df2,on='key',how='inner', suffixes=('_left','_right'))
 
-print('Left Dataframe:\n')
+print('Left DataFrame:\n')
 print(df1)
-print('\nRight Dataframe:\n')
+print('\nRight DataFrame:\n')
 print(df2)
 print('\nInner Join on "key":\n')
 print(df3)
