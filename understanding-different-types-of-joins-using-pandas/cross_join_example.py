@@ -7,10 +7,10 @@ df2 = pd.DataFrame({ 'month_of_quarter': [1,2,3]})
 # When using a cross join, no keys are specified
 df3 = df1.merge(df2, how='cross')
 
-print('Left Dataframe:\n')
+print('Left DataFrame:\n')
 print(df1)
 
-print('\nRight Dataframe:\n')
+print('\nRight DataFrame:\n')
 print(df2)
 
 print('\nCross Join:\n')
