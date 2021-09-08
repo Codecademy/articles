@@ -10,10 +10,10 @@ df2 = pd.DataFrame({'that_key': ['C', 'D', 'E', 'F'],
 
 df3 = pd.merge(df1,df2,left_on='this_key',right_on='that_key',how='left')
 
-print('Left Dataframe:\n')
+print('Left DataFrame:\n')
 print(df1)
 
-print('\nRight Dataframe:\n')
+print('\nRight DataFrame:\n')
 print(df2)
 
 print('\nLeft Join:\n')
