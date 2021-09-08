@@ -8,9 +8,9 @@ df2 = pd.DataFrame({'that_key': ['C', 'D', 'D', 'F'],
 
 df3 = df1.merge(df2,left_on='this_key',right_on='that_key',how='outer')
 
-print('Left Dataframe:\n')
+print('Left DataFrame:\n')
 print(df1)
-print('\nRight Dataframe:\n')
+print('\nRight DataFrame:\n')
 print(df2)
 print('\nOuter Join:\n')
 print(df3)
