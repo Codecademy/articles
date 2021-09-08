@@ -8,6 +8,8 @@ We will need Node.js and npm (node package manager):
 
 * npm: https://www.npmjs.com/package/latest-version
 
+In addition, running `npm install` or `npm i` will install the node modules and package lock file.
+
 Below is the default README when we generate a React app with `npx create-react-app app-name`:
 
 # Getting Started with Create React App
