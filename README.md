@@ -1,8 +1,8 @@
 # Tutorial Articles
 
-Curriculum Free Team
+Step by step tutorial articles.
 
-## Core Authors
+## Curriculum Free Team
 
 - [@sonnynomnom](https://github.com/sonnynomnom)
 - [@cauplocandiaz](https://github.com/caupolicandiaz)
