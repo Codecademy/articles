@@ -1,3 +1,6 @@
+# Olympic Data
+# Paul Diaz
+
 import os, time, csv, re
 from bs4 import BeautifulSoup
 
@@ -5,8 +8,6 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver import Safari
 from selenium.webdriver.support.ui import WebDriverWait
-
-
 
 driver = Safari()
 
@@ -22,7 +23,6 @@ gender_options = gender_dd.find_elements_by_tag_name('option')
 print(year_options[29].get_attribute('text'))
 
 usa_lst = []
-
 
 for gender in gender_options[1:]:
     gender.click()
@@ -73,8 +73,3 @@ except:
 finally:
     output_f.close()
     print('done')
-
-
-
-
-
