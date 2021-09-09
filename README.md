@@ -4,5 +4,5 @@ Curriculum Free Team
 
 ## Core Authors
 
-- @sonnynomnom
+- [@sonnynomnom](https://github.com/sonnynomnom)
 - 
