@@ -1,7 +1,5 @@
 # Tutorial Articles
 
-URLs:
-
 - TBD
 - TBD
 - TBD
@@ -15,3 +13,5 @@ URLs:
 - [@yangc95](https://github.com/yangc95)
 - [@ktom101](https://github.com/KTom101)
 - [@yolandaycao](https://github.com/yolandaycao)
+
+Articles will be surfaced at [/articles](https://www.codecademy.com/articles).
