@@ -1,0 +1,40 @@
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.style, .chat-input {
+  width: 300px;
+  height: 35px;
+}
+
+.style {
+  color: solid 1px rgba(228, 115, 9, 0.267);
+}
+
+.chat-input, .chat-submit {
+  border: solid 1px #444;
+}
+
+.chat-submit {
+  width: 50px;
+  height: 35px;
+}
+
+.chat-window {
+  height: 300px;
+  width: 400px;
+}
+
+#chat-section {
+  float: left;
+  border: 1px grey solid;
+  border-radius: 10px;
+  padding: 10px;
+}
