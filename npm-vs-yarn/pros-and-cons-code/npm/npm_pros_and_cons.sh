@@ -1,6 +1,5 @@
-# NOTE: If you'd like to run this script,
-# then you need to change line 10 and include
-# an actual Node package
+# NOTE: To run these commands, change line 8 and include
+# an valid, active Node package
 
 # create a new package
 npm init
