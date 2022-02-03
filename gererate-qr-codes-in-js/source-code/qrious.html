@@ -1,0 +1,27 @@
+html
+<!DOCTYPE html>
+<html>
+
+<body>
+  <h3>QR Code Generator</h3>
+  <canvas id="qr-code"></canvas>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+  <script>
+    (function () {
+      qrcode = new QRious({
+        element: document.getElementById("qr-code"),
+        size: 200,
+      });
+
+      qrcode.set({
+        foreground: 'blue',
+        background: 'yellow',
+        size: 200,
+        value: "This is sample"
+      });
+    })();
+  </script>
+
+</body>
+
+</html>
