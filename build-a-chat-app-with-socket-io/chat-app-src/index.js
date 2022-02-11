@@ -1,21 +1,22 @@
 const express = require("express");
-
-const chatApp = express();
-const server = require("http").createServer(chatApp);
+const app = express();
+const server = require("http").Server(app);
 const port = 3000;
-const io = require("socket.io")(server);
-const path = require("path");
 
-chatApp.use(express.static(path.join(__dirname + "/public")));
+app.use(express.static("public"));
 
-server.listen(port, () => {
-  console.log("Server running on port: " + port);
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/index.html");
 });
 
-io.on("connection", (socket) => {
-  console.log("Some clinet is connected.\n" + socket);
+server.listen(port, () => {
+  console.log("Chat app server running at port " + port);
+});
 
+const io = require("socket.io")(server);
+
+io.on("connection", (socket) => {
   socket.on("chat", (msg) => {
-    console.log("From client", msg);
+    io.emit("chat", msg);
   });
 });
