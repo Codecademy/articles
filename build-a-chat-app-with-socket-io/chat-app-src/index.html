@@ -1,32 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Socket.IO chat</title>
+  <link rel="stylesheet" href="./styles.css">
   <script src="socket.io/socket.io.js" defer></script>
-  <script src="./public/script.js" defer></script>
-  <title>Socket.io Chat App</title>
+  <script src="./script.js" defer></script>
 </head>
+
 <body>
-  <div id="container">
-    <h1 style="color:red;">
-      Chat Application
-    </h1>
-    <div id="chat-wrapper">
-      <div class="chat-window">
+  <ul id="messages"></ul>
+  <form action="" id="chat-form">
+    <input type="text" id="chat-input" autocomplete="off" placeholder="Type your message here..." />
 
-      </div>
-
-      <form action="" class="chat-form">
-        <label for="" class="chat-label" style="color:blue;">
-          Type your message:
-          <input type="text" class="chat-input" />
-        </label>
-
-        <input type="submit" class="chat-submit" value="enter" />
-      </form>
-    </div>
-  </div>
+    <button type="submit" id="chat-submit">Send</button>
+  </form>
 </body>
+
 </html>

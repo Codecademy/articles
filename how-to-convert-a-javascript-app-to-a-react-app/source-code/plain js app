@@ -1,0 +1,20 @@
+// index.html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <button onclick="getFunction()">Click Here!</button>
+    <p id="sample"></p>
+  </body>
+</html>
+
+
+//index.js
+
+function getFunction() {
+  document.getElementById("sample").innerHTML = "Hello coding is fun";
+  document.getElementById("sample").style.color = "red";
+};
